@@ -45,7 +45,7 @@ The monitoring process checks for sessions where:
 The procedure captures important session information such as SPID, blocking SPID, database ID, login time, last batch time, transaction status, hostname, program name, host process, command, login name, and SQL statement.
 
 *Ref 1: Stored Procedure*
-`![SQL Server Session and Blocking Monitoring Procedure](https://github.com/Vishnupd/SQL-Server-Open-Transaction-and-Blocked-Query-Detection/blob/main/SP1.png)`
+![SQL Server Session and Blocking Monitoring Procedure](https://github.com/Vishnupd/SQL-Server-Open-Transaction-and-Blocked-Query-Detection/blob/main/SP1.png)`
 ![SQL Server Session and Blocking Monitoring](https://github.com/Vishnupd/SQL-Server-Open-Transaction-and-Blocked-Query-Detection/blob/main/SP2.png)`
 ![SQL Server Session and Blocking Monitoring](https://github.com/Vishnupd/SQL-Server-Open-Transaction-and-Blocked-Query-Detection/blob/main/SP3.png)`
 

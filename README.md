@@ -74,11 +74,10 @@ This helps identify blocking conditions that may have a significant impact on da
 
 *Ref 2.1: Created a blocked query intentionally*
 ![Blocked Query Detection](https://github.com/Vishnupd/SQL-Server-Open-Transaction-and-Blocked-Query-Detection/blob/main/Open_Transaction.png)`
+`![Blocked Query Detection](https://github.com/Vishnupd/SQL-Server-Open-Transaction-and-Blocked-Query-Detection/blob/main/Blocked_Query.png)`
 
-![Blocked Query Detection](https://github.com/Vishnupd/SQL-Server-Open-Transaction-and-Blocked-Query-Detection/blob/main/Blocked_Query.png)`
 *Ref 2.2: Blocked Query Detection*
 This screenshot shows the blocking detection logic and the five minute wait time threshold.
-
 ![Blocked Query Detection](https://github.com/Vishnupd/SQL-Server-Open-Transaction-and-Blocked-Query-Detection/blob/main/Blocked_Query_Check.png)`
 
 ### 3. Capture Blocking and Session Details

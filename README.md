@@ -232,8 +232,3 @@ The session information and SQL statement were used to investigate the source of
 Where necessary, the transaction or query logic could be reviewed and optimized, and application-side transaction handling could be investigated to prevent recurring blocking conditions.
 
 After corrective action, the sessions were monitored again to confirm that the blocking or open transaction condition had been resolved.
-
-*Ref 8: Blocking and Open Transaction Troubleshooting*
-This screenshot shows the detailed investigation of the detected blocked query or open transaction, including session information, SQL statement analysis, and troubleshooting of the blocking condition.
-
-`![Blocking and Open Transaction Troubleshooting](screenshots/08-blocking-troubleshooting.png)`

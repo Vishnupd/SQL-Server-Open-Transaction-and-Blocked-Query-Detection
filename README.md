@@ -46,7 +46,9 @@ The procedure captures important session information such as SPID, blocking SPID
 
 *Ref 1: Stored Procedure*
 ![SQL Server Session and Blocking Monitoring Procedure](https://github.com/Vishnupd/SQL-Server-Open-Transaction-and-Blocked-Query-Detection/blob/main/SP1.png)`
-![SQL Server Session and Blocking Monitoring](https://github.com/Vishnupd/SQL-Server-Open-Transaction-and-Blocked-Query-Detection/blob/main/SP2.png)`
+
+![SQL Server Session and Blocking Monitoring Procedure](https://github.com/Vishnupd/SQL-Server-Open-Transaction-and-Blocked-Query-Detection/blob/main/SP2.png)`
+
 ![SQL Server Session and Blocking Monitoring](https://github.com/Vishnupd/SQL-Server-Open-Transaction-and-Blocked-Query-Detection/blob/main/SP3.png)`
 
 ### 2. Detect Blocked Queries
@@ -71,12 +73,13 @@ The procedure generates an alert when the blocking wait time exceeds **300,000 m
 This helps identify blocking conditions that may have a significant impact on database performance and application users.
 
 *Ref 2.1: Created a blocked query intentionally*
-`![Blocked Query Detection](screenshots/02-blocked-query-detection.png)`
+![Blocked Query Detection](https://github.com/Vishnupd/SQL-Server-Open-Transaction-and-Blocked-Query-Detection/blob/main/Open_Transaction.png)`
 
+![Blocked Query Detection](https://github.com/Vishnupd/SQL-Server-Open-Transaction-and-Blocked-Query-Detection/blob/main/Blocked_Query.png)`
 *Ref 2.2: Blocked Query Detection*
-This screenshot shows the blocking detection logic and the five-minute wait-time threshold.
+This screenshot shows the blocking detection logic and the five minute wait time threshold.
 
-`![Blocked Query Detection](screenshots/02-blocked-query-detection.png)`
+![Blocked Query Detection](https://github.com/Vishnupd/SQL-Server-Open-Transaction-and-Blocked-Query-Detection/blob/main/Blocked_Query_Check.png)`
 
 ### 3. Capture Blocking and Session Details
 
@@ -107,7 +110,7 @@ CROSS APPLY sys.dm_exec_sql_text(sql_handle) AS sqltext
 *Ref 3: Blocking Session Details*
 This screenshot shows the detailed information captured for blocked sessions, including the blocking session and SQL statement.
 
-`![Blocking Session Details](screenshots/03-blocking-session-details.png)`
+![Blocking Session Details](https://github.com/Vishnupd/SQL-Server-Open-Transaction-and-Blocked-Query-Detection/blob/main/Blocked_Query_Check.png)`
 
 ### 4. Generate an HTML Blocking Report
 
@@ -161,7 +164,7 @@ This provides an automated notification to the database administrator when a sig
 *Ref 5: Blocked Query Email Alert*
 This screenshot shows the automated email notification generated when a blocked query exceeds the configured wait-time threshold.
 
-`![Blocked Query Email Alert](screenshots/05-blocked-query-alert.png)`
+![Blocked Query Email Alert](https://github.com/Vishnupd/SQL-Server-Open-Transaction-and-Blocked-Query-Detection/blob/main/Blocked_Query_Email.png)`
 
 ### 6. Detect Open Transactions
 
@@ -183,7 +186,7 @@ This helps identify transactions that may remain open for an extended period and
 *Ref 6: Open Transaction Detection*
 This screenshot shows the logic used to identify open transactions that have remained inactive for more than four hours.
 
-`![Open Transaction Detection](screenshots/06-open-transaction-detection.png)`
+![Open Transaction Detection](http://github.com/Vishnupd/SQL-Server-Open-Transaction-and-Blocked-Query-Detection/blob/main/Open_Transaction_Check.png)`
 
 ### 7. Generate Open Transaction Alert
 
@@ -214,7 +217,7 @@ The report allows the database administrator to investigate the source of the op
 *Ref 7: Open Transaction Email Alert*
 This screenshot shows the automated email notification generated when open transactions are detected.
 
-`![Open Transaction Email Alert](screenshots/07-open-transaction-alert.png)`
+![Open Transaction Email Alert](https://github.com/Vishnupd/SQL-Server-Open-Transaction-and-Blocked-Query-Detection/blob/main/Open_Transaction_Email.png)`
 
 ### 8. Investigate and Troubleshoot Blocking and Open Transactions
 

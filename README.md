@@ -77,6 +77,7 @@ This helps identify blocking conditions that may have a significant impact on da
 `![Blocked Query Detection](https://github.com/Vishnupd/SQL-Server-Open-Transaction-and-Blocked-Query-Detection/blob/main/Blocked_Query.png)`
 
 *Ref 2.2: Blocked Query Detection*
+
 This screenshot shows the blocking detection logic and the five minute wait time threshold.
 ![Blocked Query Detection](https://github.com/Vishnupd/SQL-Server-Open-Transaction-and-Blocked-Query-Detection/blob/main/Blocked_Query_Check.png)`
 
@@ -185,7 +186,7 @@ This helps identify transactions that may remain open for an extended period and
 *Ref 6: Open Transaction Detection*
 This screenshot shows the logic used to identify open transactions that have remained inactive for more than four hours.
 
-![Open Transaction Detection](http://github.com/Vishnupd/SQL-Server-Open-Transaction-and-Blocked-Query-Detection/blob/main/Open_Transaction_Check.png)`
+![Open Transaction Detection](https://github.com/Vishnupd/SQL-Server-Open-Transaction-and-Blocked-Query-Detection/blob/main/Open_Transaction_Check.png)`
 
 ### 7. Generate Open Transaction Alert
 

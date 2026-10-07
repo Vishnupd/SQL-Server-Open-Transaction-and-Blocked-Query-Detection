@@ -1,0 +1,1 @@
+# SQL-Server-Open-Transaction-and-Blocked-Query-Detection
